@@ -8,7 +8,7 @@ Write a program to archive Traffic management at Flow level by implementing Leak
 int main()
 {
 	int orate,drop=0,cap,x,count=0,
-	int[10]={0},i=0,nsec,ch;
+	int inp[10]={0},i=0,nsec,ch;
 	printf(" \n enter bucket size : ");
 	scanf("%d",&cap);
 	printf("\n enter output rate :");
